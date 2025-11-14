@@ -1,0 +1,375 @@
+[{
+  "_id": {
+    "$oid": "684b8b05b3e07046b3f8bd42"
+  },
+  "name": "CELO/USD₮",
+  "address": "0x6cde5f5a192fBf3fD84df983aa6DC30dbd9f8Fac",
+  "token0": {
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "symbol": "CELO",
+    "decimals": 18
+  },
+  "token1": {
+    "address": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
+    "symbol": "USD₮",
+    "decimals": 6
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-13T02:20:49.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T02:20:49.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684b8b05b3e07046b3f8bd43"
+  },
+  "name": "CELO/cEUR",
+  "address": "0xf130F72F8190f662522774C3367E6e8814f5e219",
+  "token0": {
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "symbol": "CELO",
+    "decimals": 18
+  },
+  "token1": {
+    "address": "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+    "symbol": "cEUR",
+    "decimals": 18
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-13T02:20:49.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T02:20:49.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684b8b05b3e07046b3f8bd44"
+  },
+  "name": "CELO/USDC",
+  "address": "0xA1777e082fA1746eB78DD9C1fbB515419CF6e538",
+  "token0": {
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "symbol": "CELO",
+    "decimals": 18
+  },
+  "token1": {
+    "address": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-13T02:20:50.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T02:20:50.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684b8b05b3e07046b3f8bd45"
+  },
+  "name": "cKES/cUSD",
+  "address": "0x95faa9a91cD6c1C018e4B1a6fC4c89D4F1695e5D",
+  "token0": {
+    "address": "0x456a3D042C0DbD3db53D5489e98dFb038553B0d0",
+    "symbol": "cKES",
+    "decimals": 18
+  },
+  "token1": {
+    "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+    "symbol": "cUSD",
+    "decimals": 18
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-13T02:20:50.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T02:20:50.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684b8b05b3e07046b3f8bd46"
+  },
+  "name": "cKES/USD₮",
+  "address": "0x61Ef8708fc240DC7f9F2c0d81c3124Df2fd8829F",
+  "token0": {
+    "address": "0x456a3D042C0DbD3db53D5489e98dFb038553B0d0",
+    "symbol": "cKES",
+    "decimals": 18
+  },
+  "token1": {
+    "address": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
+    "symbol": "USD₮",
+    "decimals": 6
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-13T02:20:50.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T02:20:50.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684b8b05b3e07046b3f8bd47"
+  },
+  "name": "cUSD/cEUR",
+  "address": "0x1c8DafD358d308b880F71eDB5170B010b106Ca60",
+  "token0": {
+    "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+    "symbol": "cUSD",
+    "decimals": 18
+  },
+  "token1": {
+    "address": "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+    "symbol": "cEUR",
+    "decimals": 18
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-13T02:20:51.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T02:20:51.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684b8b05b3e07046b3f8bd48"
+  },
+  "name": "USDC/cUSD",
+  "address": "0xEa3fB6e3313A2A90757E4Ca3d6749EfD0107B0B6",
+  "token0": {
+    "address": "0x37f750B7cC259A2f741AF45294f6a16572CF5cAd",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "token1": {
+    "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+    "symbol": "cUSD",
+    "decimals": 18
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-13T02:20:51.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T02:20:51.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684b8b05b3e07046b3f8bd49"
+  },
+  "name": "CELO/cUSD",
+  "address": "0x2d70cBAbf4d8e61d5317b62cBe912935FD94e0FE",
+  "token0": {
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "symbol": "CELO",
+    "decimals": 18
+  },
+  "token1": {
+    "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+    "symbol": "cUSD",
+    "decimals": 18
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-13T02:20:51.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T02:20:51.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684b8b05b3e07046b3f8bd4a"
+  },
+  "name": "USD₮/cUSD",
+  "address": "0x5dC631aD6C26BEA1a59fBF2C2680CF3df43d249f",
+  "token0": {
+    "address": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
+    "symbol": "USD₮",
+    "decimals": 6
+  },
+  "token1": {
+    "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+    "symbol": "cUSD",
+    "decimals": 18
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-13T02:20:52.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T02:20:52.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684b8b05b3e07046b3f8bd4b"
+  },
+  "name": "CELO/WETH",
+  "address": "0xd80D28850bEBE6208433c298334392bC940B4fc7",
+  "token0": {
+    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "symbol": "CELO",
+    "decimals": 18
+  },
+  "token1": {
+    "address": "0x66803FB87aBd4aaC3cbB3fAd7C3aa01f6F3FB207",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-13T02:20:52.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T02:20:52.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684b8b05b3e07046b3f8bd4c"
+  },
+  "name": "USD₮/WETH",
+  "address": "0xF55791AfBB35aD42984f18D6Fe3e1fF73D81900c",
+  "token0": {
+    "address": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
+    "symbol": "USD₮",
+    "decimals": 6
+  },
+  "token1": {
+    "address": "0xD221812de1BD094f35587EE8E174B07B6167D9Af",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-13T02:20:52.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T02:20:52.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684b8b05b3e07046b3f8bd4d"
+  },
+  "name": "PUSO/USD₮",
+  "address": "0x87deC9a2589d9e6511Df84C193561b3A16cF6238",
+  "token0": {
+    "address": "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+    "symbol": "PUSO",
+    "decimals": 18
+  },
+  "token1": {
+    "address": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
+    "symbol": "USD₮",
+    "decimals": 6
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-13T02:20:53.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T02:20:53.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685573ec4164815572400434"
+  },
+  "name": "cUSD/USDC",
+  "address": "0x34757893070B0FC5de37AaF2844255fF90F7F1E0",
+  "token0": {
+    "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+    "symbol": "cUSD",
+    "decimals": 18
+  },
+  "token1": {
+    "address": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-20T14:45:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-20T14:45:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6857fe1b732e5e9783fd79fb"
+  },
+  "name": "USD₮/USDC",
+  "address": "0x1a810e0B6c2dd5629AFa2f0c898b9512C6F78846",
+  "token0": {
+    "address": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
+    "symbol": "USD₮",
+    "decimals": 6
+  },
+  "token1": {
+    "address": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-06-22T12:59:07.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-22T12:59:07.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6876a1c9d5617fbe58b95d00"
+  },
+  "name": "USDGLO/G$",
+  "address": "0x0DBb0769B00d01d241BA4F7B2891fB5C2A975D51",
+  "token0": {
+    "address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+    "symbol": "USDGLO",
+    "decimals": 18
+  },
+  "token1": {
+    "address": "0x62B8B11039FcfE5aB0C56E502b1C372A3d2a9c7A",
+    "symbol": "G$",
+    "decimals": 18
+  },
+  "priceInUsd": 0,
+  "createdAt": {
+    "$date": "2025-07-15T18:45:29.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-15T18:45:29.000Z"
+  },
+  "__v": 0
+}]

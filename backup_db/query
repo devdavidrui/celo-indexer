@@ -1,0 +1,29 @@
+SELECT
+  block_date,
+  blockchain,
+  COUNT(*) as number_of_trades,
+  SUM(amount_usd) as trading_volume_usd
+FROM dex.trades
+WHERE
+  block_date >= NOW() - INTERVAL '30' day
+GROUP BY
+  1, 2
+ORDER BY
+  1 DESC, 4 DESC
+
+
+  -- Fetch the total number of Uniswap V3 pools
+SELECT 
+    COUNT(*) AS total_pools
+FROM 
+ celo
+WHERE 
+    factory_address = '0x1F98431c8aD98523631AE4a59f267346ea31F984'
+    AND protocol = 'Uniswap V3';
+
+    
+
+SELECT
+  COUNT(*) AS total_pools
+  FROM  WHERE dex.trades=uniswap_v3
+  AND  blockchain= 'celo'

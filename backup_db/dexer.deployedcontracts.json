@@ -1,0 +1,29 @@
+[
+  {
+    "_id": {
+      "$oid": "68555b5a18c78811b892c6cb"
+    },
+    "address": "0x87dCFeF7582736f8269Ee59A91506115423a932F",
+    "name": "Flashloan 1",
+    "txCount": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68555b5a18c78811b892c6cc"
+    },
+    "address": "0x9B79700Eb02b70212eEe350757604706dCD08f4b",
+    "name": "Flashloan 2",
+    "txCount": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68555b5a18c78811b892c6cd"
+    },
+    "address": "0x05ADB2e6C1Bb9575a10580CE892283ccb64DF2be",
+    "name": "Flashloan 3",
+    "txCount": 0,
+    "__v": 0
+  }
+]
