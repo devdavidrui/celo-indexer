@@ -1,0 +1,49 @@
+{
+  "name": "dexer-indexer",
+  "version": "1.0.0",
+  "description": "Dexer Client Onchain Indexer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json",
+    "start": "node dist/index.js",
+    "build": "tsup src/index.ts",
+    "create-pool": "tsx src/commands/index.ts seed-pool",
+    "create-contracts": "tsx src/commands/index.ts seed-contracts"
+  },
+  "_moduleAliases": {
+    "@controllers": "dist/controllers",
+    "@middlewares": "dist/middlewares",
+    "@validators": "dist/validators",
+    "@services": "dist/services",
+    "@models": "dist/models",
+    "@utils": "dist/utils",
+    "@config": "dist/config",
+    "@types": "dist/types"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bignumber.js": "^9.3.0",
+    "commander": "^14.0.0",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "envalid": "^8.0.0",
+    "ethers": "^6.14.3",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "luxon": "^3.6.1",
+    "mongoose": "^8.15.1",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.2",
+    "typescript": "^5.8.3",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/luxon": "^3.6.2",
+    "nodemon": "^3.1.10"
+  }
+}
