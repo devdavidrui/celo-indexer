@@ -13,7 +13,8 @@ const app = express()
 const PORT = process.env.PORT || 3000
 connectDB()
 
-syncDexerTransactions()
+// Collection will run on-demand via the /collect route
+// syncDexerTransactions()
 //getSwapData()
 
 app.use('/', BaseRouter)
