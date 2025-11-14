@@ -6,6 +6,7 @@ import { getPoolInfo, getPoolPrice } from '@utils/helper'
 import { logger } from '@utils/logger'
 import { ethers, type Log } from 'ethers'
 import { DateTime } from 'luxon'
+import { fetch as undiciFetch } from 'undici'
 const FLASHLOAN_PROVIDER = [
   '0xC3e77dC389537Db1EEc7C33B95Cf3beECA71A209',
   '0x918146359264C492BD6934071c6Bd31C854EDBc3',
@@ -250,6 +251,11 @@ const getTokenPrice = async (symbol: string, amount0: string, amount1: string) =
 
 const getTokenPriceFromDexScreener = async (address: string) => {
   const url = `https://api.dexscreener.com/token-pairs/v1/celo/${address}`
+  // ensure fetch is available in older Node versions
+  if (typeof globalThis.fetch === 'undefined') {
+    ;(globalThis as any).fetch = undiciFetch
+  }
+
   const response = await fetch(url, {
     method: 'get',
   })

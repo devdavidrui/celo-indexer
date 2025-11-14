@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'stormbot',
+      name: 'celo-indexer',
       script: 'npm',
       args: 'run start',
       instances: '1',
